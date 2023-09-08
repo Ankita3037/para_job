@@ -10,7 +10,7 @@ pipeline {
         stage('Download maven') {
             steps {
                 sh 'cd /home'
-                sh 'sudo wget https://dlcdn.apache.org/maven/maven-3/$maven_version/binaries/apache-maven-$maven_version-bin.tar.gz'
+                sh 'sudo wget https://dlcdn.apache.org/maven/maven-3/3.9.4/binaries/apache-maven-3.9.4-bin.tar.gz'
             }
         }
     }
